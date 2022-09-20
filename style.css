@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;
+}
+body{
+    background-color: #32384A;
+   /* padding-top: 232px;  */
+}
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+}
+li:hover{
+    background-color: black;
+
+}
+intro{
+    background-color: wheat;
+    color: wheat;
+}
+section.intro{
+    text-align: center;
+   /* background-color: #3a5093;*/
+    height: 300px;
+    margin-top: 60px;
+    color: white;
+    
+}
+section.about-me{
+    text-align: center;
+    height: 230px;
+    margin-top: 100px;
+    color: white;
+}
+section.projects{
+    text-align: center;
+    /*background-color: rgb(45, 125, 195);*/
+    height: 2200px;
+    margin-top: 40px;
+    color: white;
+}
+h1{
+    margin-bottom: 20px;
+    color: pink;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h4{
+    margin-left: 30px;
+    margin-right: 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+img.weather-app{
+    height:400px ;
+    width: 450px ;
+    display: block;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+img.tic-tac-toe{
+    height:400px ;
+    width: 590px ;
+    display: block;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+h3 a{
+    color: rgba(138, 176, 241, 0.886);
+    text-decoration: underline;
+}
+h2{
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(238, 243, 244, 0.945);
+}
+img.to-do-app{
+    height:490px ;
+    width: 590px ;
+    display: block;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+p{
+    font-size: 1.3em;
+}
